@@ -1,0 +1,59 @@
+.section {
+    border-radius: 0.5rem;
+    padding: var(--spacing-400);
+    /* Drop Shadow */
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+}
+
+.section-01 {
+    background-color: var(--purple-500);
+}
+
+.section-02 {
+    background-color: var(--grey-500);
+}
+.section-03,
+.section-05 {
+    background-color: var(--white);
+}
+.section-04 {
+    background-color: var(--dark-blue);
+}
+
+.section-01 h2,
+.section-01 .name h4,
+.section-02 .name h4,
+.section-02 h2,
+.section-04 .name {
+    color: var(--white)
+}
+
+.section-01 .name h5,
+.section-01 p {
+    color: var(--purple-50);
+}
+
+.section-04 h2{
+    color: var(--grey-200);
+}
+.section-02 p,
+.section-04 p {
+    color: var(--grey-100);
+}
+
+.section-02 .name h5,
+.section-05 .name h5,
+.section-03 h2 {
+    color: #A3AAB4;
+}
+
+.section-03 .name h4,
+.section-03 h2,
+.section-05 h2 {
+    color: var(--grey-500);
+}
+.section-03 .name h5,
+.section-03 p,
+.section-05 p {
+    color: var(--grey-400);
+}
