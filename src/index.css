@@ -28,6 +28,24 @@
     --text-preset-4: 0.688rem;
 }
 
+@media (max-width: 47.938rem) {
+    body {
+        padding: var(--spacing-400, 4.5625rem) var(--spacing-200, 2.1875rem);
+    }
+}
+
+@media (min-width: 48rem) and (max-width: 89.938rem) {
+    body {
+        padding: var(--spacing-1600, 5.1875rem) 3.8125rem var(--spacing-1600, 7.0625rem) 3.75rem;
+    }
+}
+
+@media (min-width: 90rem) {
+    body {
+        padding: var(--spacing-1600, 14.3125rem) 10.0625rem var(--spacing-1600, 13.625rem) 10.3125rem;
+    }
+}
+
 body {
     background-color: #F6F5F6;;
 }
